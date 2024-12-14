@@ -1,2 +1,2 @@
 # buidlingmoderndataproducts
-Static Page for Building Modern Data Products
+<img src="https://raw.githubusercontent.com/ShasankDave/buildingmoderndataproducts.github.io/main/Buildingmoderndataproducts.jpg" style="width:550px;"/>
