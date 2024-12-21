@@ -1,1 +1,1 @@
-<img src="Buildingmoderndataproducts.jpg" style="width:1500px;"/>
+<img src="Home.jpg" style="width:2500px;"/>
