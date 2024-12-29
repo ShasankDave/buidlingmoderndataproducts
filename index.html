@@ -8,20 +8,29 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
         <style>
-                /* Center the subscribe button */
-                .actions {
-                    display: flex;
-                    justify-content: center;
-                }
-                /* Make header text use Inter Regular font */
-                #header h1, #header p {
-                    font-family: 'Inter', sans-serif;
-                    font-weight: 400; /* Regular weight */
-                }
-
-                #header {
+            /* Center the subscribe button */
+            .actions {
+                display: flex;
+                justify-content: center;
+            }
+            /* Make header text use Inter Regular font */
+            #header h1, #header p {
+                font-family: 'Inter', sans-serif;
+                font-weight: 400; /* Regular weight */
+            }
+            /* Move header a little above */
+            #header {
                 position: relative;
                 top: -60px; /* Adjust this value as needed */
+            }
+            /* Flashing CTA button */
+            .flashing-button {
+                animation: flash 1.5s infinite;
+            }
+            @keyframes flash {
+                0% { opacity: 1; }
+                50% { opacity: 0.5; }
+                100% { opacity: 1; }
             }
         </style>
     </head>
@@ -43,11 +52,10 @@
                                 <h1><span style="font-weight: bold;">data</span> <span style="font-weight: normal;">products</span></h1>
                                 <p style="font-weight: normal;">insights, frameworks, strategies & more</p>
                                 <ul class="actions">
-                                    <li><a href="https://buildingmoderndataproducts.substack.com/" class="button primary" target="_blank">Subscribe To Our Newsletter</a></li>
+                                    <li><a href="https://buildingmoderndataproducts.substack.com/" class="button primary flashing-button" target="_blank">Subscribe To Our Newsletter</a></li>
                                 </ul>
                             </div>
                         </div>
-                        
                     </header>
 
                 <!-- Main -->
